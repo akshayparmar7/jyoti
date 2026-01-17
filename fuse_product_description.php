@@ -36,6 +36,9 @@
             <div class="mt-4">
                 <?php echo $product['description']; ?>
             </div>
+            <div>
+                <a href="fuse_download_catalog.php?id=<?php echo $product['id']; ?>" download class="btn red-outline">Download Catalog</a>
+            </div>
         </div>
 
         <div class="col-lg-4">
@@ -63,7 +66,8 @@
                         <label class="form-label">Message</label>
                         <textarea name="message" class="form-control" rows="4" placeholder="Message"></textarea>
                     </div>
-
+                    
+                    <input type="hidden" name="product_name" value="<?php echo $product['title']; ?>">
                     <button type="submit" name="send" class="btn btn-custom w-100 py-2">
                         Send Now
                     </button>

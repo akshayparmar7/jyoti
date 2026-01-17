@@ -80,7 +80,7 @@ $html = '
         text-align: center;
         font-size: 10px;
         color: #777;
-        margin-top: 40px;
+        margin-top: 10px;
     }
 </style>
 
@@ -104,6 +104,23 @@ $html = '
     <div class="application">
         '.$product['data'].'
     </div>
+</div>
+
+<div class="header d-flex align-items-center gap-4">
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="30%" align="left">
+                &nbsp;&nbsp;&nbsp;&nbsp; 
+                <img src="img/Jyoti_logo.png" height="20" alt="Logo">
+            </td>
+
+            <td width="70%" align="right">
+                <span>+91 95125 05020</span>
+                &nbsp;&nbsp;&nbsp;&nbsp; 
+                <span>info@electrogroups.org</span>
+            </td>
+        </tr>
+    </table>
 </div>
 
 <div class="footer">
